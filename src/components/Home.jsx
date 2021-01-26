@@ -1,8 +1,44 @@
+import homeDraw from "../assets/img/home-draw.png"
+import logo from "../assets/svg/logo.svg"
+import twitter from "../assets/svg/social/twitter.svg"
+import github from "../assets/svg/social/github.svg"
+import linkedin from "../assets/svg/social/linkedin.svg"
 
+import "../assets/css/Home.css"
 function Home() {
     return (
-        <section className="App-header">
-           
+        <section className="home">
+            <img className="home__draw" src={homeDraw} alt="Inicio" />
+            <img className="home__logo" src={logo} alt="{ Jav }" />
+            <p className="home__description">
+                Programador, geek, futuro emprendedor
+            </p>
+            <div className="home__social-media">
+                <a href="https://twitter.com/javcho23" target="_blank">
+                    <img
+                        className="home__social-media-item"
+                        src={twitter}
+                        alt="Twiiter"
+                    />
+                </a>
+                <a href="https://linkedin.com/in/javcho23" target="_blank">
+                    <img
+                        className="home__social-media-item"
+                        src={linkedin}
+                        alt="Linkedin"
+                    />
+                </a>
+                <a href="https://github.com/javcho23" target="_blank">
+                    <img
+                        className="home__social-media-item"
+                        src={github}
+                        alt="Github"
+                    />
+                </a>
+            </div>
+            <a className="home__footer" href="#">
+                Mira mi trabajo
+            </a>
         </section>
     )
 }

@@ -1,0 +1,35 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home__draw {
+    width: 100vw;
+}
+
+.home__logo {
+    width: 30vw;
+    margin: 1em;
+}
+
+.home__description {
+    color: var(--important-text-color);
+}
+
+.home__social-media {
+    display: flex;
+    width: 35vw;
+    margin: 1em;
+    justify-content: space-around;
+    align-items: center;
+}
+.home__social-media-item {
+    width: 30px;
+}
+
+.home__footer {
+    margin-top: 5em;
+}
