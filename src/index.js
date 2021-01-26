@@ -1,14 +1,16 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import "./assets/css/index.css"
-import Home from "./views/Home"
 import Header from "./components/Header"
+import Home from "./views/Home"
+import Work from "./views/Work"
 import reportWebVitals from "./reportWebVitals"
 
 ReactDOM.render(
     <React.StrictMode>
         <Header />
         <Home />
+        <Work />
     </React.StrictMode>,
     document.getElementById("root")
 )

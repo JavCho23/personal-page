@@ -49,7 +49,7 @@ function Home() {
                     />
                 </a>
             </div>
-            <a className="home__footer" href="#">
+            <a className="home__footer" href="#work">
                 Mira mi trabajo
             </a>
         </section>
