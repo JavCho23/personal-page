@@ -1,25 +1,14 @@
-import logo from '../assets/svg/logo.svg';
-import '../assets/css/App.css';
+import "../assets/css/App.css"
+import Home from "../components/Home"
+import Header from "../components/Header"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          The init of my personal page
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/JavCho23/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @javcho23
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Home />
+        </div>
+    )
 }
 
-export default App;
+export default App

@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    margin: 1em;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+
+.header__logo {
+    width: 4em;
+}
+
+.header__items {
+    display: flex;
+    width: 14em;
+    justify-content: space-between;
+}
+
+.header__item {
+    font-weight: normal;
+    color: var(--header-text-color);
+    font-size: 15px;
+}
