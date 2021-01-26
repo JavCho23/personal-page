@@ -1,9 +1,12 @@
 .header {
     display: flex;
-    margin: 1em;
+    padding: 1em;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     background-color: var(--background-color);
+    position: absolute;
+    box-sizing: border-box;
 }
 
 .header__logo {

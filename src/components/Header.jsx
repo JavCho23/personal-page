@@ -5,7 +5,9 @@ import "../assets/css/Header.css"
 function Header() {
     return (
         <header className="header">
-            <img className="header__logo" src={logo} alt="{ Jav }" />
+            <a href="/">
+                <img className="header__logo" src={logo} alt="{ Jav }" />
+            </a>
 
             <div className="header__items">
                 <h2 className="header__item">Habilidades</h2>
