@@ -15,21 +15,33 @@ function Home() {
                 Programador, geek, futuro emprendedor
             </p>
             <div className="home__social-media">
-                <a href="https://twitter.com/javcho23" target="_blank">
+                <a
+                    href="https://twitter.com/javcho23"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         className="home__social-media-item"
                         src={twitter}
                         alt="Twiiter"
                     />
                 </a>
-                <a href="https://linkedin.com/in/javcho23" target="_blank">
+                <a
+                    href="https://linkedin.com/in/javcho23"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         className="home__social-media-item"
                         src={linkedin}
                         alt="Linkedin"
                     />
                 </a>
-                <a href="https://github.com/javcho23" target="_blank">
+                <a
+                    href="https://github.com/javcho23"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <img
                         className="home__social-media-item"
                         src={github}
