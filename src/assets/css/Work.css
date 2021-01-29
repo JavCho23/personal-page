@@ -1,0 +1,26 @@
+.work {
+    padding-top: 6em;
+}
+
+.work__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.work__image {
+    width: 100%;
+}
+
+.work__title {
+    margin-top: 0em;
+    color: var(--title-color);
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+.work__subtitle {
+    color: var(--title-color);
+    font-weight: 200;
+    font-size: 1.7em;
+}
