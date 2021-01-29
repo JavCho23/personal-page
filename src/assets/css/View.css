@@ -4,5 +4,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 3rem);
+    overflow: hidden;
+    position: relative;
+}
+
+.subtitle {
+    color: var(--title-section-color);
+    font-size: 24vw;
+    margin-top: 0.5em;
+    width: max-content;
+    position: absolute;
+    z-index: -1;
+    font-weight: bolder;
 }
