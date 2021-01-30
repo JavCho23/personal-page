@@ -1,7 +1,3 @@
-.home {
-
-}
-
 .home__draw {
     width: 100vw;
 }
@@ -27,5 +23,26 @@
 }
 
 .home__footer {
-    margin-top: 5em;
+    margin-top: 2.3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__arrow {
+    padding-top: 0.5em;
+    height: 2em;
+    animation: down 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down {
+    0% {
+        margin-top: 0em;
+    }
+    50% {
+        margin-top: 1em;
+    }
+    100% {
+        margin-top: 0em;
+    }
 }

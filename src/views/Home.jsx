@@ -4,6 +4,7 @@ import twitter from "../assets/svg/social/twitter.svg"
 import github from "../assets/svg/social/github.svg"
 import linkedin from "../assets/svg/social/linkedin.svg"
 
+import arrow from "../assets/svg/arrow-down.svg"
 import "../assets/css/Home.css"
 import "../assets/css/View.css"
 function Home() {
@@ -50,7 +51,8 @@ function Home() {
                 </a>
             </div>
             <a className="home__footer" href="#work">
-                Mira mi trabajo
+                <span> Mira mi trabajo</span>
+                <img className="home__arrow" src={arrow} alt=""  />
             </a>
         </section>
     )
