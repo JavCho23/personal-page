@@ -6,6 +6,7 @@ import Home from "./views/Home"
 import Work from "./views/Work"
 import About from "./views/About"
 import Skills from "./views/Skills"
+import Footer from "./components/Footer"
 import reportWebVitals from "./reportWebVitals"
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Work />
         <About />
         <Skills />
+        <Footer />
     </React.StrictMode>,
     document.getElementById("root")
 )
