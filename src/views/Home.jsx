@@ -9,7 +9,7 @@ import "../assets/css/Home.css"
 import "../assets/css/View.css"
 function Home() {
     return (
-        <section className="home view">
+        <section id="home" className="home view">
             <img className="home__draw" src={homeDraw} alt="Inicio" />
             <img className="home__logo" src={logo} alt="{ Jav }" />
             <p className="home__description">

@@ -5,14 +5,20 @@ import "../assets/css/Header.css"
 function Header() {
     return (
         <header className="header">
-            <a href="/">
+            <a href="#home">
                 <img className="header__logo" src={logo} alt="{ Jav }" />
             </a>
 
             <div className="header__items">
-                <h2 className="header__item">Habilidades</h2>
-                <h2 className="header__item">Trabajo</h2>
-                <h2 className="header__item">Contacto</h2>
+                <a href="#skills" className="header__item">
+                    Habilidades
+                </a>
+                <a href="#work" className="header__item">
+                    Trabajo
+                </a>
+                <a href="#contact" className="header__item">
+                    Contacto
+                </a>
             </div>
         </header>
     )
