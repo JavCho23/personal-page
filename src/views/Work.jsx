@@ -5,7 +5,14 @@ import WorkItem from "../components/WorkItem"
 
 function Work() {
     const works = [
-        { img: "./assets/img/work/personal-page.png", name: "Personal page" },
+        {
+            img: "./assets/img/work/personal-page.png",
+            name: "Personal page",
+            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellat hic ut dolorem quidem fugit, doloremque repudiandae
+            ea harum in. Commodi officia quibusdam eius recusandae omnis
+            sunt aliquid, a accusantium perferendis.`,
+        },
     ]
 
     return (
