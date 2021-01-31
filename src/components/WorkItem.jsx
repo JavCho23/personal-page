@@ -1,6 +1,6 @@
 function WorkItem({ work }) {
     return (
-        <div key={work.name} className="work__item">
+        <div className="work__item">
             <img className="work__image" src={work.img} alt="" />
             <article className="work__details">
                 <header className="work__header">
