@@ -29,8 +29,8 @@
 }
 
 .home__arrow {
-    padding-top: 0.5em;
-    height: 2em;
+    padding-top: 0.8em;
+    height: 1.5em;
     animation: down 2s;
     animation-iteration-count: infinite;
 }
