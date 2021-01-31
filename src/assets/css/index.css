@@ -2,10 +2,14 @@
     --background-color: white;
     --primary-color: #a93653;
     --title-color: #b23957;
-    --text-color: #444444;
     --important-text-color: #383838;
+    --text-color: #444444;
     --header-text-color: #535353;
     --title-section-color: rgba(0, 0, 0, 0.05);
+    --alternative-primary-color: #a8a8a8;
+    --alternative-background-color: rgba(0, 0, 0, 0.8);
+    --alternative-text-color: #c0c0c0;
+    --alternative-important-text-color: #a9a9a9;
 }
 
 body {
