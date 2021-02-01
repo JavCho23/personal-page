@@ -1,5 +1,19 @@
-.skills {
+.skill {
     padding-top: 6em;
+}
+.skills {
+    width: 100%;
+}
+
+.skills__container {
+    display: flex;
+}
+
+.skill__container {
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    float: left;
 }
 
 .skill__item {
@@ -10,16 +24,13 @@
 }
 
 .skill__image {
-    max-width: 100%;
+    max-width: 80%;
     height: 35vh;
 }
 
 .skill__title {
     margin-top: 0em;
-    color: var(--title-color);
-    font-size: 2.5em;
     margin-bottom: 0.5em;
-    font-weight: bold;
 }
 .skill__subtitle {
     color: var(--title-color);
