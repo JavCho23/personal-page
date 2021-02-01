@@ -18,3 +18,9 @@
     z-index: -1;
     font-weight: bolder;
 }
+
+.title {
+    color: var(--title-color);
+    font-size: 2em;
+    font-weight: bolder;
+}

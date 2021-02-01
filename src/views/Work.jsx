@@ -58,20 +58,22 @@ class Work extends React.Component {
         const movePercent = 100 / works.length
         const wipeAnimation = new TimelineMax()
         for (let index = 1; index < works.length; index++) {
-            wipeAnimation
-                .to("#worksContainer", 1, { x: `-${index * movePercent}%` }) // move in to first panel
+            wipeAnimation.to("#worksContainer", 1, {
+                x: `-${index * movePercent}%`,
+            }) // move in to first panel
         }
 
         // create scene to pin and link animation
         new ScrollMagic.Scene({
             triggerElement: "#work",
             triggerHook: "onLeave",
-            duration: "500%",
+            duration: works.length + "00%",
         })
             .setPin("#work")
             .setTween(wipeAnimation)
             .addTo(controller)
     }
+
     render() {
         return (
             <section id="work" className="work view">
