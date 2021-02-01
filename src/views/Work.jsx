@@ -59,9 +59,7 @@ class Work extends React.Component {
         const wipeAnimation = new TimelineMax()
         for (let index = 1; index < works.length; index++) {
             wipeAnimation
-                .to("#worksContainer", 0.5, { z: -150 }) // move back in 3D space
                 .to("#worksContainer", 1, { x: `-${index * movePercent}%` }) // move in to first panel
-                .to("#worksContainer", 0.5, { z: 0 }) // move back to origin in 3D space
         }
 
         // create scene to pin and link animation
