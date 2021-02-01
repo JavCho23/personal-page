@@ -25,3 +25,16 @@
     font-weight: 200;
     font-size: 1.5em;
 }
+.work__container {
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+.works__container {
+    display: flex;
+}
+
+.works {
+    width: 100%;
+}
