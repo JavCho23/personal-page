@@ -43,18 +43,10 @@ const works = [
         ea harum in. Commodi officia quibusdam eius recusandae omnis
         sunt aliquid, a accusantium perferendis.`,
     },
-    {
-        img: "./assets/img/work/personal-page.png",
-        name: "Trabajo 4",
-        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Repellat hic ut dolorem quidem fugit, doloremque repudiandae
-        ea harum in. Commodi officia quibusdam eius recusandae omnis
-        sunt aliquid, a accusantium perferendis.`,
-    },
 ]
 class Work extends React.Component {
     componentDidMount() {
-        const controller = new ScrollMagic.Controller()
+        this.controller = new ScrollMagic.Controller()
         const movePercent = 100 / works.length
         const wipeAnimation = new TimelineMax()
         for (let index = 1; index < works.length; index++) {
@@ -71,7 +63,11 @@ class Work extends React.Component {
         })
             .setPin("#work")
             .setTween(wipeAnimation)
-            .addTo(controller)
+            .addTo(this.controller)
+    }
+    selectWork(work) {
+        this.controller.scrollTo(`#${work}`)
+        console.log(this.controller)
     }
 
     render() {
@@ -90,6 +86,19 @@ class Work extends React.Component {
                         ))}
                     </div>
                 </div>
+                {/* <div className="works__buttons">
+                    {works.map((work) => (
+                        <button
+                            key={work.name}
+                            onClick={() => {
+                                this.selectWork(work.name.replace(" ", ""))
+                            }}
+                            className="work__button"
+                        >
+                            {work.name}
+                        </button>
+                    ))}
+                </div> */}
             </section>
         )
     }

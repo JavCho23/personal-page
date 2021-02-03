@@ -1,6 +1,6 @@
 function WorkItem({ work }) {
     return (
-        <div className="work__container">
+        <div id={work.name.replace(" ","")} className="work__container">
             <div className="work__item">
                 <img className="work__image" src={work.img} alt="" />
                 <article className="work__details">
