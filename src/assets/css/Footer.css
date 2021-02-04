@@ -27,11 +27,29 @@
 }
 
 .footer__slogan {
-    color: var(--alternative-important-text-color);
     margin: 0;
     font-size: 1.3em;
 }
 
 .footer__rights {
+    color: var(--alternative-important-text-color);
     margin: 0;
+}
+
+@media (min-width: 630px) {
+    .footer__logo {
+        height: 4em;
+        width: 5.5em;
+    }
+    .footer__social-media-item {
+        height: 2em;
+        width: 2em;
+    }
+
+    .footer__social-media {
+        width: 20%;
+    }
+    .footer__slogan {
+        font-size: 1.8em;
+    }
 }

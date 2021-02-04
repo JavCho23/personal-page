@@ -15,7 +15,7 @@
 
 .work__title {
     margin-top: 0em;
-  
+
     margin-bottom: 0.5em;
 }
 .work__subtitle {
@@ -35,4 +35,10 @@
 
 .works {
     width: 100%;
+}
+
+@media (min-width: 630px) {
+    .work__subtitle {
+        font-size: 1.8em;
+    }
 }

@@ -27,3 +27,15 @@
     color: var(--header-text-color);
     font-size: 15px;
 }
+
+@media (min-width: 630px) {
+    .header__logo {
+        width: 5em;
+    }
+    .header__items {
+        width: 20em;
+    }
+    .header__item {
+        font-size: 1.2em;
+    }
+}
