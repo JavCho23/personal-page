@@ -46,3 +46,8 @@
         margin-top: 0em;
     }
 }
+@media (max-width: 320px) {
+    .home__footer {
+        margin-top: 0;
+    }
+}
