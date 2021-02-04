@@ -53,3 +53,24 @@
         font-size: 1.8em;
     }
 }
+@media (min-width: 1000px) {
+    .footer__slogan {
+        order: -1;
+        width: 50vw;
+        text-align: center;
+    }
+    .footer__logo {
+        order: -2;
+        width: 15vw;
+    }
+    .footer__social-media {
+        width: 15vw;
+    }
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 5vw;
+        height: 15vh;
+    }
+}

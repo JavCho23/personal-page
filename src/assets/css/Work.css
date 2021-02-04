@@ -42,3 +42,16 @@
         font-size: 1.8em;
     }
 }
+@media (min-width: 1000px) {
+    .work__item {
+        flex-direction: row;
+        width: 95%;
+        justify-content: space-around;
+    }
+    .work__image {
+        width: 50%;
+    }
+    .work__details {
+        width: 40%;
+    }
+}
