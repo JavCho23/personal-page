@@ -92,6 +92,9 @@ class Skills extends React.Component {
                                         <p className="skill__description">
                                             {skill.description}
                                         </p>
+                                        <p className="skill__description">
+                                            {skill.description}
+                                        </p>
                                     </article>
                                 </div>
                             </div>
