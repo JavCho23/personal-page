@@ -69,7 +69,7 @@ class Skills extends React.Component {
                 <div className="skills">
                     <div
                         id="skillsContainer"
-                        style={{ width: skills.length + "00%" }}
+                        style={{ width: skills.length + "00vw" }}
                         className="skills__container"
                     >
                         {skills.map((skill) => (
@@ -89,11 +89,6 @@ class Skills extends React.Component {
                                                 {skill.name}
                                             </h3>
                                         </header>
-                                        <p className="skill__description">
-                                            Mi nombre es Javier Chávez, nací en
-                                            Lima pero he pasado la mayor parte
-                                            de mi vida en Chiclayo.
-                                        </p>
                                         <p className="skill__description">
                                             Mi nombre es Javier Chávez, nací en
                                             Lima pero he pasado la mayor parte

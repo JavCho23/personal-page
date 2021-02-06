@@ -19,17 +19,23 @@
 @media (min-width: 1000px) {
     .about__container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
     .about__image {
-        width: 85%;
-        height: 85%;
+        width: 70%;
+        height: auto;
     }
     .about__header {
         width: 50%;
     }
     .about__content {
         width: 40%;
+    }
+    .about__container {
+        width: 90%;
+    }
+    .about__description {
+        width: 70%;
     }
 }

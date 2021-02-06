@@ -9,6 +9,11 @@ import Skills from "./views/Skills"
 import Footer from "./components/Footer"
 import reportWebVitals from "./reportWebVitals"
 
+import { TimelineMax, TweenMax } from "gsap"
+import ScrollMagic from "scrollmagic"
+import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap"
+
+ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax)
 ReactDOM.render(
     <React.StrictMode>
         <Header />

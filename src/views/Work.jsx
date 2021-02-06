@@ -4,11 +4,8 @@ import "../assets/css/View.css"
 import React from "react"
 import WorkItem from "../components/WorkItem"
 
-import { TimelineMax, TweenMax } from "gsap"
+import { TimelineMax } from "gsap"
 import ScrollMagic from "scrollmagic"
-import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap"
-
-ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax)
 
 const works = [
     {

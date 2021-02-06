@@ -5,10 +5,6 @@
     width: 100%;
 }
 
-.skills__container {
-    display: flex;
-}
-
 .skill__container {
     display: flex;
     justify-content: center;
@@ -46,7 +42,7 @@
 @media (min-width: 1000px) {
     .skill__item {
         flex-direction: row;
-        width: 80%;
+        width: 90%;
         justify-content: space-around;
     }
     .skill__image {
@@ -56,14 +52,17 @@
     .skill__details {
         width: 40%;
     }
+    .skill__description {
+        width: 70%;
+    }
     .skill__subtitle {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .skills {
         justify-content: center;
     }
     .skill__container {
         height: 70vh;
-        align-items: flex-start;
+        width: 100vw;
     }
 }
