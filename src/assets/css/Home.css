@@ -92,6 +92,7 @@
     }
     .home__content {
         align-items: flex-end;
+        width: 40vw;
     }
     .home__social-media {
         width: 12vw;

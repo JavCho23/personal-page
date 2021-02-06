@@ -3,8 +3,7 @@ import "../assets/css/Footer.css"
 function Footer() {
     return (
         <footer className="footer">
-            <svg
-                className="footer__logo"
+            <svg className="footer__logo"
                 width="244"
                 height="111"
                 viewBox="0 0 244 111"

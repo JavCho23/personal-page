@@ -24,7 +24,6 @@
     font-size: 1.5em;
 }
 .work__container {
-    min-width: 100vw;
     display: flex;
     justify-content: center;
     float: left;
@@ -54,4 +53,8 @@
     .work__details {
         width: 40%;
     }
+    .work__subtitle {
+        font-size: 1.5em;
+    }
+
 }
