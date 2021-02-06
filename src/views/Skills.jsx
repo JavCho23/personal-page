@@ -90,10 +90,14 @@ class Skills extends React.Component {
                                             </h3>
                                         </header>
                                         <p className="skill__description">
-                                            {skill.description}
+                                            Mi nombre es Javier Chávez, nací en
+                                            Lima pero he pasado la mayor parte
+                                            de mi vida en Chiclayo.
                                         </p>
                                         <p className="skill__description">
-                                            {skill.description}
+                                            Mi nombre es Javier Chávez, nací en
+                                            Lima pero he pasado la mayor parte
+                                            de mi vida en Chiclayo.
                                         </p>
                                     </article>
                                 </div>

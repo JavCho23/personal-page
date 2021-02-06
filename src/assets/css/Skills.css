@@ -46,7 +46,7 @@
 @media (min-width: 1000px) {
     .skill__item {
         flex-direction: row;
-        width: 95%;
+        width: 80%;
         justify-content: space-around;
     }
     .skill__image {
@@ -58,5 +58,12 @@
     }
     .skill__subtitle {
         font-size: 1.5em;
+    }
+    .skills {
+        justify-content: center;
+    }
+    .skill__container {
+        height: 70vh;
+        align-items: flex-start;
     }
 }
