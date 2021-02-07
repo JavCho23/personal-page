@@ -113,7 +113,7 @@
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
     @keyframes down {
         0% {
             margin-top: 0em;
