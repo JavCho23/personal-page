@@ -12,12 +12,18 @@ function About() {
                 <div className="about__content">
                     <span className="about__title title">Sobre mí</span>
                     <p className="about__description">
-                        Mi nombre es Javier Chávez, nací en Lima pero he pasado
-                        la mayor parte de mi vida en Chiclayo.
+                        Mi nombre es Javier Chávez, soy un desarrollador de
+                        sofware peruano. Cuando no estoy desarrollando, juego
+                        videojuegos o hago deporte.
                     </p>
                     <p className="about__description">
-                        Mi nombre es Javier Chávez, nací en Lima pero he pasado
-                        la mayor parte de mi vida en Chiclayo.
+                        En un proyecto de sofware, me encargo principalmente del
+                        Backend y de las actividades de despliegue, sin embargo
+                        también puedo realizar tareas de Frontend.
+                    </p>
+                    <p className="about__description">
+                        {/* TODO hacer Securitec un enlace */}
+                        Actualmente estoy trabajando con Securitec.
                     </p>
                 </div>
             </article>

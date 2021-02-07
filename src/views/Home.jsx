@@ -14,7 +14,7 @@ function Home() {
             <div className="home__content">
                 <img className="home__logo" src={logo} alt="{ Jav }" />
                 <p className="home__description">
-                    Programador, geek, futuro emprendedor
+                    Desarrollador, geek, futuro emprendedor
                 </p>
                 <div className="home__social-media">
                     <a
