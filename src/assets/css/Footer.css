@@ -74,4 +74,8 @@
         padding: 5vw;
         height: 15vh;
     }
+    .footer__rights {
+        width: 50vw;
+        text-align: center;
+    }
 }
