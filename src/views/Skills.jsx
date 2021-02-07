@@ -69,7 +69,7 @@ class Skills extends React.Component {
                 <div className="skills">
                     <div
                         id="skillsContainer"
-                        style={{ width: skills.length + "00vw" }}
+                        style={{ width: skills.length + "00%" }}
                         className="skills__container"
                     >
                         {skills.map((skill) => (

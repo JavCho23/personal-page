@@ -5,6 +5,9 @@
     width: 100%;
 }
 
+.skills__container {
+    display: flex;
+}
 .skill__container {
     display: flex;
     justify-content: center;
