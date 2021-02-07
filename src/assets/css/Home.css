@@ -108,9 +108,21 @@
         height: 2em;
     }
     .home__arrow {
-        padding-top: 0.3em;
+        padding-top: 0em;
         height: 1.2em;
-        animation: down 2s;
-        animation-iteration-count: infinite;
+    }
+}
+
+@media (min-width: 1400px) {
+    @keyframes down {
+        0% {
+            margin-top: 0em;
+        }
+        50% {
+            margin-top: 0.5em;
+        }
+        100% {
+            margin-top: 0em;
+        }
     }
 }
