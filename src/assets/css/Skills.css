@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     float: left;
+    width: 100vw;
 }
 
 .skill__item {
@@ -66,6 +67,5 @@
     }
     .skill__container {
         height: 70vh;
-        width: 100vw;
     }
 }

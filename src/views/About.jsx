@@ -13,9 +13,9 @@ function About() {
                     <span className="about__title title">Sobre mí</span>
                     <p className="about__description">
                         Mi nombre es <strong>Javier Chávez</strong>, soy un
-                        desarrollador de <strong>software</strong> peruano.
-                        Cuando no estoy desarrollando, juego videojuegos o hago
-                        deporte.
+                        desarrollador de <strong>software</strong> peruano. Me
+                        considero una persona autodidactica y con una fuerte
+                        habilidad de pensamiento lógico
                     </p>
                     <p className="about__description">
                         En un proyecto de sofware, me encargo principalmente del
