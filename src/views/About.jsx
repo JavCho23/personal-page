@@ -12,18 +12,50 @@ function About() {
                 <div className="about__content">
                     <span className="about__title title">Sobre mí</span>
                     <p className="about__description">
-                        Mi nombre es Javier Chávez, soy un desarrollador de
-                        sofware peruano. Cuando no estoy desarrollando, juego
-                        videojuegos o hago deporte.
+                        Mi nombre es <strong>Javier Chávez</strong>, soy un
+                        desarrollador de <strong>software</strong> peruano.
+                        Cuando no estoy desarrollando, juego videojuegos o hago
+                        deporte.
                     </p>
                     <p className="about__description">
                         En un proyecto de sofware, me encargo principalmente del
-                        Backend y de las actividades de despliegue, sin embargo
-                        también puedo realizar tareas de Frontend.
+                        <strong> Backend</strong> y de las actividades de
+                        despliegue, sin embargo también puedo realizar tareas de
+                        <strong> Frontend</strong>.
                     </p>
                     <p className="about__description">
                         {/* TODO hacer Securitec un enlace */}
-                        Actualmente estoy trabajando con Securitec.
+                        Actualmente estoy trabajando con{" "}
+                        <a
+                            href="https://www.securitec.pe/"
+                            className="about__link"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Securitec
+                        </a>
+                        .
+                    </p>
+                    <p className="about__description">
+                        Si quieres conocer más sobre mí puedes seguirme en
+                        <a
+                            href="https://twitter.com/javcho23"
+                            className="about__link"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <strong>Twitter</strong>
+                        </a>{" "}
+                        y para encontrar todos mis proyectos puedes visitar mi
+                        visitar mi{" "}
+                        <a
+                            href="https://github.com/JavCho23"
+                            className="about__link"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <strong>Github</strong>
+                        </a>
                     </p>
                 </div>
             </article>
