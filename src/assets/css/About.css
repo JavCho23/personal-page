@@ -15,6 +15,9 @@
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+.about__description {
+    width: 90%;
+}
 
 @media (min-width: 1000px) {
     .about__container {
@@ -34,8 +37,5 @@
     }
     .about__container {
         width: 90%;
-    }
-    .about__description {
-        width: 80%;
     }
 }

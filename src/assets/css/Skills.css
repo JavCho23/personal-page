@@ -36,10 +36,15 @@
     font-weight: 200;
     font-size: 1.5em;
 }
-
+.skills__optional {
+    display: none;
+}
 @media (min-width: 630px) {
     .skill__subtitle {
         font-size: 1.8em;
+    }
+    .skills__optional {
+        display: initial;
     }
 }
 
@@ -57,7 +62,7 @@
         width: 40%;
     }
     .skill__description {
-        width: 80%;
+        width: 90%;
     }
     .skill__subtitle {
         font-size: 2em;

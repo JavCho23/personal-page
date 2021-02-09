@@ -10,32 +10,57 @@ const skills = [
         img: "./assets/svg/techs/php.svg",
         name: "Backend",
         descriptions: [
-            "Mi camino siendo un backend developer empezó con PHP y desde entonces me especializado en trabajar en el lado del servidor. En los primeros proyectos trabajé principalmente con vanilla PHP, luego empecé a usar Laravel y Slim para cuando necesitaba desarrollar solo una API Rest.",
-            "Me he encargado de mantener una buena arquitectura para los proyectos en los que he trabajado, manteniendo mi código lo más limpio posible y crear productos de calidad.",
-            "Actualmente estoy aprendiendo JavaScript a fondo, usando Node.js como entorno y Adonis.js como framework.",
+            {
+                text:
+                    "Mi camino siendo un backend developer empezó con PHP y desde entonces me especializado en trabajar en el lado del servidor. En los primeros proyectos trabajé principalmente con vanilla PHP, luego empecé a usar Laravel y Slim para cuando necesitaba desarrollar solo una API Rest.",
+            },
+            {
+                class: "skills__optional",
+                text:
+                    "Me he encargado de mantener una buena arquitectura para los proyectos en los que he trabajado, manteniendo mi código lo más limpio posible y crear productos de calidad.",
+            },
+            {
+                text:
+                    "Actualmente estoy aprendiendo JavaScript a fondo, usando Node.js como entorno y Adonis.js como framework.",
+            },
         ],
     },
     {
         img: "./assets/svg/techs/js.svg",
         name: "Web development",
         descriptions: [
-            "Actualmente estoy desarrollando mis habilidades como frontend developer, profundizando mis conocimientos de CSS y JavaScript para el frontend. La mayoría de aplicaciones web que he construido han sido con Vanilla JS y Vue.js.",
-            "Tambien estoy aprendiendo React.js y construí esta página usándolo.",
+            {
+                text:
+                    "Actualmente estoy desarrollando mis habilidades como frontend developer, profundizando mis conocimientos de CSS y JavaScript para el frontend. La mayoría de aplicaciones web que he construido han sido con Vanilla JS y Vue.js.",
+            },
+            {
+                text:
+                    "Tambien estoy aprendiendo React.js y construí esta página usándolo.",
+            },
         ],
     },
     {
         img: "./assets/svg/techs/mysql.svg",
         name: "Databases",
         descriptions: [
-            "En la mayoría de proyectos que he trabajado, me he encargado del diseño y administración de la base de datos, trabajando principalmente con MySql.",
-            "Actualmente estoy trabajando con una base de datos no relacional, MongoDB, y el poder que tiene para la gran demanda de datos que tiene la aplicación junto con su rápido desarrollo me han fascinado.",
+            {
+                text:
+                    "En la mayoría de proyectos que he trabajado, me he encargado del diseño y administración de la base de datos, trabajando principalmente con MySql.",
+            },
+            {
+                text:
+                    "Actualmente estoy trabajando con una base de datos no relacional, MongoDB, y el poder que tiene para la gran demanda de datos que tiene la aplicación junto con su rápido desarrollo me han fascinado.",
+            },
         ],
     },
     {
         img: "./assets/svg/techs/aws.svg",
         name: "Cloud services",
         descriptions: [
-            "La infraestructura a demanda, y auto-escalable es el futuro, y decidí aprender a administrarla. He desarrollado microservicios con una infraestructura serveless usando Lambda, APIGateway y CloudFormation, Teniendo así más tiempo para mejorar la calidad de mi código.",
+            {
+                text:
+                    "La infraestructura a demanda, y auto-escalable es el futuro, y decidí aprender a administrarla. He desarrollado microservicios con una infraestructura serveless usando Lambda, APIGateway y CloudFormation, Teniendo así más tiempo para mejorar la calidad de mi código.",
+            },
         ],
     },
 ]
@@ -91,8 +116,14 @@ class Skills extends React.Component {
                                         </header>
                                         {skill.descriptions.map(
                                             (description) => (
-                                                <p className="skill__description">
-                                                    {description}
+                                                <p
+                                                    key={description.text}
+                                                    className={
+                                                        "skill__description " +
+                                                        description.class
+                                                    }
+                                                >
+                                                    {description.text}
                                                 </p>
                                             )
                                         )}

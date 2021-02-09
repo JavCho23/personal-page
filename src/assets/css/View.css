@@ -25,19 +25,21 @@
     font-weight: bolder;
 }
 
+p {
+    font-size: 0.93em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
 @media (min-width: 630px) {
     .title {
         font-size: 4em;
     }
     p {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 }
 @media (min-width: 1000px) {
     .title {
         font-size: 4em;
-    }
-    p {
-        font-size: 1.2em;
     }
 }
