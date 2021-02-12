@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     float: left;
+    width: 100vw;
 }
 .work__item {
     display: flex;
@@ -17,7 +18,9 @@
 }
 
 .work__image {
-    width: 100%;
+    width: auto;
+    height: 33vh;
+    margin-bottom: 0.5em;
 }
 
 .work__title {
@@ -39,6 +42,9 @@
     .work__subtitle {
         font-size: 1.8em;
     }
+    .work__image {
+        height: 40vh;
+    }
 }
 @media (min-width: 1000px) {
     .work__item {
@@ -47,7 +53,7 @@
         justify-content: space-around;
     }
     .work__image {
-        width: 50%;
+        height: 50vh;
     }
     .work__details {
         width: 40%;
