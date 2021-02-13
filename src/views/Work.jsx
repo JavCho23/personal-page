@@ -104,8 +104,14 @@ class Work extends React.Component {
         const movePercent = 100 / works.length
         const wipeAnimation = new TimelineMax()
         for (let index = 1; index < works.length; index++) {
+            wipeAnimation.to("#worksContainer", 0.5, {
+                z: -150,
+            }) // move in to first panel
             wipeAnimation.to("#worksContainer", 1, {
                 x: `-${index * movePercent}%`,
+            }) // move in to first panel
+            wipeAnimation.to("#worksContainer", 0.5, {
+                z: -0,
             }) // move in to first panel
         }
 

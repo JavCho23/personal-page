@@ -70,8 +70,14 @@ class Skills extends React.Component {
         const movePercent = 100 / skills.length
         const wipeAnimation = new TimelineMax()
         for (let index = 1; index < skills.length; index++) {
+            wipeAnimation.to("#skillsContainer", 0.5, {
+                z: -150,
+            }) // move in to first panel
             wipeAnimation.to("#skillsContainer", 1, {
                 x: `-${index * movePercent}%`,
+            }) // move in to first panel
+            wipeAnimation.to("#skillsContainer", 0.5, {
+                z: 0,
             }) // move in to first panel
         }
 
