@@ -6,7 +6,7 @@ function WorkItem({ work }) {
                 <article className="work__details">
                     <header className="work__header">
                         <span className="work__subtitle">Mi trabajo</span>
-                        <a href={work.link}>
+                        <a href={work.link} target="_blank" rel="noreferrer">
                             <h3 className="work__title title">{work.name}</h3>
                         </a>
                     </header>
