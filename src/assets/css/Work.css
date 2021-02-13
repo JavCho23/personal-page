@@ -18,9 +18,9 @@
 }
 
 .work__image {
-    width: auto;
-    height: 33vh;
+    width: 100%;
     margin-bottom: 0.5em;
+    max-width: 100%;
 }
 
 .work__title {
@@ -42,9 +42,6 @@
     .work__subtitle {
         font-size: 1.8em;
     }
-    .work__image {
-        height: 40vh;
-    }
 }
 @media (min-width: 1000px) {
     .work__item {
@@ -54,6 +51,7 @@
     }
     .work__image {
         height: 50vh;
+        width: auto;
     }
     .work__details {
         width: 40%;
