@@ -16,7 +16,7 @@
     margin-bottom: 0.5em;
 }
 .about__description {
-    width: 90%;
+    width: 100%;
 }
 
 @media (min-width: 1000px) {
@@ -36,6 +36,9 @@
         width: 40%;
     }
     .about__container {
+        width: 90%;
+    }
+    .about__description {
         width: 90%;
     }
 }

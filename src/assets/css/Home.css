@@ -1,3 +1,6 @@
+.home {
+    max-height: 100vh;
+}
 .home__draw {
     width: 100vw;
 }
@@ -14,6 +17,7 @@
 
 .home__description {
     color: var(--important-text-color);
+    font-size: 1em;
 }
 
 .home__social-media {
@@ -28,6 +32,7 @@
 }
 
 .home__footer {
+    font-size: 0.9em;
     margin-top: 2.3em;
     display: flex;
     flex-direction: column;
