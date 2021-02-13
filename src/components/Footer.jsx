@@ -83,7 +83,9 @@ function Footer() {
                     </svg>
                 </a>
             </div>
-            <p className="footer__slogan">Frase por ver</p>
+            <p className="footer__slogan">
+                Actualmente "No lo sé" se ha convertido en "No lo sé todavía"
+            </p>
             <p className="footer__rights">Todos los derechos reservados</p>
         </footer>
     )
