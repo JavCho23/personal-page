@@ -11,35 +11,91 @@ const works = [
     {
         img: "./assets/img/work/inbox.png",
         name: "Inbox",
-        description: `Inbox es una plataforma omnicanal, que facilita la comunicación entre empresas y sus clientes. 
-        Actualmente pertenezco al equipo de Inbox, y estamos convirtiéndolo en una plataforma automantenible.
-         El stack con el que trabajo en Inbox es Vue.js, Adonis.js, MongoDB, Socket.io y Express.js.`,
+        link: "https://www.securitec.pe/inbox/",
+        descriptions: [
+            <p className="work__description">
+                Inbox es una plataforma <strong>omnicanal</strong>, que facilita
+                la comunicación entre empresas y sus clientes.
+            </p>,
+            <p className="work__description">
+                Actualmente <strong>pertenezco</strong> al equipo de Inbox, y
+                estamos convirtiéndolo en una plataforma automantenible.
+            </p>,
+            <p className="work__description">
+                El <strong>stack</strong> con el que trabajo en Inbox es Vue.js,
+                Adonis.js, MongoDB, Socket.io y Express.js.
+            </p>,
+        ],
     },
     {
         img: "./assets/img/work/personal-page.png",
         name: "Personal page",
-        description: `Mi página personal es un proyecto que ansiaba poner en marcha, y aún está en desarrollo. 
-        Aquí es donde puedo mostrar mis principales trabajos y describir mis habilidades. 
-        Realicé esta página usando React por la gran curiosidad que tenía de probar esta librería y agregarla a mi portafolio.`,
+        link: "/",
+        descriptions: [
+            <p className="work__description">
+                Mi página <strong>personal</strong> es un proyecto que ansiaba
+                poner en marcha, y aún está en desarrollo, aquí es donde puedo
+                mostrar mis principales trabajos y describir mis habilidades.
+            </p>,
+            <p className="work__description">
+                Realicé esta página usando <strong>React</strong> por la gran
+                curiosidad que tenía de probar esta librería y agregarla a mi
+                portafolio.
+            </p>,
+        ],
     },
     {
         img: "./assets/img/work/buscapatas.png",
+        link: "http://www.buscapatas.org",
         name: "Buscapatas",
-        description: `Buscapatas es una plataforma de adopción y donación para el banco de alimentos y mascotas del Perú. 
-        Lideré el equipo de backend, en donde desarrollamos una API Rest usando servicios de AWS, principalmente funciones Lambda en JavaScript, APIGateway y S3.`,
+        descriptions: [
+            <p className="work__description">
+                Buscapatas es una plataforma de <strong>adopción</strong> y
+                donación para el banco de alimentos y mascotas del Perú.
+            </p>,
+            <p className="work__description">
+                <strong>Lideré</strong> el equipo de backend, en donde
+                desarrollamos una API Rest usando servicios de{" "}
+                <strong>AWS</strong>, principalmente funciones Lambda en
+                JavaScript, APIGateway y S3.
+            </p>,
+        ],
     },
     {
         img: "./assets/img/work/gerencia-gestar.png",
+        link: "#",
         name: "GerenciaGestar",
-        description: `GerenciaGestar es una aplicación gerencial para Invitro gestar, que consume datos de su ERP para poder obtener reportes gerenciales. 
-        Me encargué del backend de esta aplicación trabajando con vanilla PHP.`,
+        descriptions: [
+            <p className="work__description">
+                GerenciaGestar es una aplicación <strong>gerencial</strong> para
+                Invitro gestar, que consume datos de su ERP para poder obtener
+                reportes de su balance.
+            </p>,
+            <p className="work__description">
+                Me encargué del <strong>backend</strong> de esta aplicación
+                trabajando con vanilla PHP.
+            </p>,
+        ],
     },
     {
         img: "./assets/img/work/securitec-music.png",
+        link: "https://securitec-music.herokuapp.com",
         name: "SecuritecMusic",
-        description: `Securitec music es una API Rest que administra Artistas, albums y canciones. 
-        Fue realizado como una prueba de ingreso al equipo de Inbox, en la cual puede demostrar mis habilidades como backend developer. 
-        Para realizar esta utilicé Express.js y MySql, basandome en una arquitectura hexagonal. `,
+        descriptions: [
+            <p className="work__description">
+                Securitec music es una <strong>API Rest</strong> que administra
+                Artistas, albums y canciones.
+            </p>,
+            <p className="work__description">
+                Fue realizado como una prueba de ingreso al equipo de Inbox, en
+                la cual puede demostrar mis <strong>habilidades</strong> como
+                backend developer.
+            </p>,
+            <p className="work__description">
+                Para realizar esta utilicé Express.js y MySql, basandome en una
+                arquitectura <strong>hexagonal</strong>.
+            </p>,
+        ],
     },
 ]
 class Work extends React.Component {
