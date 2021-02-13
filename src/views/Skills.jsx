@@ -11,17 +11,35 @@ const skills = [
         name: "Backend",
         descriptions: [
             {
-                text:
-                    "Mi camino siendo un backend developer empezó con PHP y desde entonces me especializado en trabajar en el lado del servidor. En los primeros proyectos trabajé principalmente con vanilla PHP, luego empecé a usar Laravel y Slim para cuando necesitaba desarrollar solo una API Rest.",
+                text: (
+                    <p>
+                        Mi camino siendo un backend developer empezó con PHP y
+                        desde entonces me he <strong>especializado</strong> en
+                        trabajar en el lado del servidor. En mis primeros
+                        proyectos trabajé principalmente con vanilla PHP, luego
+                        empecé a usar Laravel y Slim para cuando necesitaba
+                        desarrollar solo una API Rest.
+                    </p>
+                ),
             },
             {
-                class: "skills__optional",
-                text:
-                    "Me he encargado de mantener una buena arquitectura para los proyectos en los que he trabajado, manteniendo mi código lo más limpio posible y crear productos de calidad.",
+                text: (
+                    <p className="skills__optional">
+                        Me he encargado de mantener una buena{" "}
+                        <strong>arquitectura</strong> para los proyectos en los
+                        que he trabajado, manteniendo mi código lo más limpio
+                        posible y crear productos de calidad.
+                    </p>
+                ),
             },
             {
-                text:
-                    "Actualmente estoy aprendiendo JavaScript a fondo, usando Node.js como entorno y Adonis.js como framework.",
+                text: (
+                    <p>
+                        Actualmente estoy aprendiendo{" "}
+                        <strong>JavaScript</strong> a fondo, usando Node.js como
+                        entorno y Adonis.js como framework.
+                    </p>
+                ),
             },
         ],
     },
@@ -30,12 +48,23 @@ const skills = [
         name: "Web development",
         descriptions: [
             {
-                text:
-                    "Actualmente estoy desarrollando mis habilidades como frontend developer, profundizando mis conocimientos de CSS y JavaScript para el frontend. La mayoría de aplicaciones web que he construido han sido con Vanilla JS y Vue.js.",
+                text: (
+                    <p>
+                        Actualmente estoy desarrollando mis habilidades como{" "}
+                        <strong>frontend developer</strong>, profundizando mis
+                        conocimientos de CSS y JavaScript para el frontend. La
+                        mayoría de aplicaciones web que he construido han sido
+                        con Vanilla JS y Vue.js.
+                    </p>
+                ),
             },
             {
-                text:
-                    "Tambien estoy aprendiendo React.js y construí esta página usándolo.",
+                text: (
+                    <p>
+                        Tambien estoy aprendiendo React.js y construí esta
+                        página usándolo.
+                    </p>
+                ),
             },
         ],
     },
@@ -44,12 +73,25 @@ const skills = [
         name: "Databases",
         descriptions: [
             {
-                text:
-                    "En la mayoría de proyectos que he trabajado, me he encargado del diseño y administración de la base de datos, trabajando principalmente con MySql.",
+                text: (
+                    <p>
+                        En la mayoría de proyectos que he trabajado, me he
+                        encargado del <strong>diseño</strong> y administración
+                        de la base de datos, trabajando principalmente con
+                        MySql.
+                    </p>
+                ),
             },
             {
-                text:
-                    "Actualmente estoy trabajando con una base de datos no relacional, MongoDB, y el poder que tiene para la gran demanda de datos que tiene la aplicación junto con su rápido desarrollo me han fascinado.",
+                text: (
+                    <p>
+                        Actualmente estoy trabajando con una base de datos no
+                        relacional, <strong>MongoDB</strong>, y el poder que
+                        tiene para la gran demanda de datos que una aplicación
+                        puede alcanzar, junto con su rápido desarrollo. Me han
+                        fascinado.
+                    </p>
+                ),
             },
         ],
     },
@@ -58,8 +100,16 @@ const skills = [
         name: "Cloud services",
         descriptions: [
             {
-                text:
-                    "La infraestructura a demanda, y auto-escalable es el futuro, y decidí aprender a administrarla. He desarrollado microservicios con una infraestructura serveless usando Lambda, APIGateway y CloudFormation, Teniendo así más tiempo para mejorar la calidad de mi código.",
+                text: (
+                    <p>
+                        La infraestructura a demanda, y auto-escalable es el
+                        futuro, y decidí aprender a administrarla. He
+                        desarrollado microservicios con una infraestructura{" "}
+                        <strong>serveless</strong> usando Lambda, APIGateway y
+                        CloudFormation, Teniendo así más tiempo para mejorar la
+                        calidad de mi código.
+                    </p>
+                ),
             },
         ],
     },
@@ -103,7 +153,7 @@ class Skills extends React.Component {
                         style={{ width: skills.length + "00%" }}
                         className="skills__container"
                     >
-                        {skills.map((skill) => (
+                        {skills.map((skill, skillIndex) => (
                             <div key={skill.name} className="skill__container">
                                 <div className="skill__item">
                                     <img
@@ -121,17 +171,8 @@ class Skills extends React.Component {
                                             </h3>
                                         </header>
                                         {skill.descriptions.map(
-                                            (description) => (
-                                                <p
-                                                    key={description.text}
-                                                    className={
-                                                        "skill__description " +
-                                                        description.class
-                                                    }
-                                                >
-                                                    {description.text}
-                                                </p>
-                                            )
+                                            (description, index) =>
+                                                description.text
                                         )}
                                     </article>
                                 </div>
