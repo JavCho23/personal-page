@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     .about__container {
         display: flex;
         justify-content: space-around;

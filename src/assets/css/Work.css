@@ -43,7 +43,7 @@
         font-size: 1.8em;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     .work__item {
         flex-direction: row;
         width: 90%;

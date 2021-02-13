@@ -28,7 +28,8 @@
 
 .footer__slogan {
     margin: 0;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    font-style: italic;
 }
 
 .footer__rights {
@@ -37,6 +38,9 @@
 }
 
 @media (min-width: 630px) {
+    .footer {
+        padding-right: 10vw;
+    }
     .footer__logo {
         height: 4em;
         width: 5.5em;
@@ -50,10 +54,10 @@
         width: 20%;
     }
     .footer__slogan {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     .footer__slogan {
         order: -1;
         width: 57vw;

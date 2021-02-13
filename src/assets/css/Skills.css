@@ -48,7 +48,7 @@
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     .skill__item {
         flex-direction: row;
         width: 90%;
