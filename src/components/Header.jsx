@@ -16,7 +16,12 @@ function Header() {
                 <a href="#work" className="header__item">
                     Trabajo
                 </a>
-                <a href="#contact" className="header__item">
+                <a
+                    href="https://t.me/javcho23"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="header__item"
+                >
                     Contacto
                 </a>
             </div>
